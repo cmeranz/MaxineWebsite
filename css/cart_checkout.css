@@ -1,0 +1,61 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 21, 2021, 4:46:25 PM
+    Author     : user
+*/
+
+.tablecontainer{
+    margin: 0px 50px 20px 50px;
+}
+table{
+    width:100%;
+    border-collapse: collapse;
+}
+productinfo{
+    display: flex;
+    flex-wrap: wrap;
+}
+th{
+    text-align: left;
+    padding: 5px;
+    color: white;
+    background: black;
+    font-weight: normal;
+    width: 300px;
+}
+
+td{
+    padding: 15px 8px;
+}
+td input{
+    width: 50px;
+    height: 30px;
+    padding: 5px;
+}
+td a{
+    color: red;
+    font-size: 12px;
+}
+td img{
+    width: 80px;
+    height: 80px;
+    margin: right;
+}
+.total{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.total table{
+    border-top: 4px solid black;
+    width: 100%;
+    max-width: 350px;
+}
+
+td:last-child, th:last-child{
+    text-align: right;
+}

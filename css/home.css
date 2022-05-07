@@ -1,0 +1,151 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 19, 2021, 12:36:10 PM
+    Author     : user
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.row1{
+    padding-left: 30px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.row{
+   
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.col-2 {
+    flex-basis:50%;
+    min-width: 300px;
+    padding-right: 100px;
+}
+.col-2{
+    text-color: black;
+}
+
+.col-2 img{
+    max-width: 100%;
+    padding: 40px 100px;
+}
+.col-2 h1{
+    font-size: 50px;
+    line-height: 60px;
+    margin: 80px 0;
+}
+.btn{
+    display: inline-block;
+    background: #000000;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: background 0.5s;
+}
+.btn:hover{
+    opacity: 0.7;
+}
+.header{
+   background: #fff;  
+}
+.header row{
+    margin-top: 70px;
+}
+.categories{
+    margin:0px 0;
+    background-color:#000000;
+}
+
+.row h3{
+    color:#fff;
+}
+.row p{
+   color:#fff; 
+}
+.col3 {
+    flex-basis:25%;
+    padding:10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+}
+.col3 img{
+   width:100%;
+}
+.categories h2{
+    alignment-adjust: central;
+}
+
+.h4{
+    color: #fff;
+    font-weight: normal;
+}
+.col3 p{
+    font-size: 14px;
+}
+.offer{
+    background: #fff;
+    margin-top:0px;
+    padding:30px 0;
+}
+.col2 offerimg{
+    padding:50px;
+}
+.small{
+    color:#555;
+}
+.offer{
+    background: #fff;
+    margin-top:0px;
+    padding:30px 0;
+}
+.col2 offerimg{
+    padding:50px;
+}
+.col-2-1 {
+    flex-basis: 40%;
+    min-width: 300px;
+    padding-right: 100px;
+}
+.col-2-1{
+    text-color: black;
+}
+
+
+.col-2-1 h1{
+    font-size: 50px;
+    line-height: 60px;
+    margin: 80px 0;
+}
+
+.categories p{
+    color: #fff;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.categories h1{
+    font-size: 50px;
+    line-height: 60px;
+    color: #fff;
+    padding-top: 30px;
+    text-align: center;
+}
